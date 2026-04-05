@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contato IFSP (PTBDWBC)</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <div align="right" style="margin-right: 20px; font-family: sans-serif;">
+    
+        <a href="index.html" style="text-decoration: none; color: purple;">HOME</a> 
+        | 
+        <a href="eventos.html" style="text-decoration: none; color: purple;">EVENTOS</a> 
+        | 
+        <a href="contato.html" style="text-decoration: none; color: purple;">CONTATO</a> 
+        | 
+        <a href="sobre.html" style="text-decoration: none; color: purple;">SOBRE</a> 
+        | 
+        <a href="entrar.html" style="text-decoration: none; color: purple;">ENTRAR</a>
+    
+      </div>
+      
+      <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/Logo.jpg?raw=true" alt="Logo"/>
+
+      <p><strong>Mande uma mensagem</strong></p>
+
+      <form>
+
+        <ul>
+          <li>
+            Nome <input type="text" name="nome" required title="Please fill in this field"/>
+          </li>
+          <li>
+            E-Mail <input type="email" name="email" required title="Please fill in this field"/>
+          </li>
+          <li>
+            Telefone <input 
+				type="tel" 
+				name="telefone_contato" 
+				id="telefone" 
+				placeholder="(XX) XXXXX-XXXX"
+				pattern="\(\d{2}\) \d{5}-\d{4}"
+				title="O formato deve ser (XX) XXXXX-XXXX"
+			  />
+          </li>
+          <li>
+            Assunto
+            <select name="assunto" required title="Please fill in this field">
+              <option value="" disabled selected>-- Selecione --</option>
+              <option value="informacoes">Reclamação</option>
+              <option value="suporte">Sugestão</option>
+            </select>
+          </li>
+          <li>
+            Mensagem <textarea name="mensagem" rows="4" cols="30" required title="Please fill in this field"></textarea>
+
+            <fieldset>
+			  <legend>Opções de Resposta</legend>
+
+			  <label for="email">E-Mail:</label>
+			  <input 
+				type="email" 
+				name="email_contato" 
+				id="email" 
+				placeholder="exemplo@dominio.com"
+			  />
+
+			  <br><br>
+
+			  <label for="telefone">Telefone:</label>
+			  <input 
+				type="tel" 
+				name="telefone_contato" 
+				id="telefone" 
+				placeholder="(XX) XXXXX-XXXX"
+				pattern="\(\d{2}\) \d{5}-\d{4}"
+				title="O formato deve ser (XX) XXXXX-XXXX"
+			  />
+			</fieldset>
+          </li>
+          <li>
+            <input type="submit" value="Enviar"/>
+          </li>
+        </ul>
+
+      </form>
+
+      <br/>
+
+      <a href="https://www.facebook.com/ifsppirituba">
+        <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/facebook.png?raw=true" alt="Logo Facebook" height="50px"/>
+      </a>
+
+      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+
+  </body>
+</html>

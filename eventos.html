@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eventos IFSP (PTBDWBC)</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/refs/heads/master/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <div align="right" style="margin-right: 20px; font-family: sans-serif;">
+    
+        <a href="index.html" style="text-decoration: none; color: purple;">HOME</a> 
+        | 
+        <a href="eventos.html" style="text-decoration: none; color: purple;">EVENTOS</a> 
+        | 
+        <a href="contato.html" style="text-decoration: none; color: purple;">CONTATO</a> 
+        | 
+        <a href="sobre.html" style="text-decoration: none; color: purple;">SOBRE</a> 
+        | 
+        <a href="entrar.html" style="text-decoration: none; color: purple;">ENTRAR</a>
+    
+      </div>
+      
+      <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/Logo.jpg?raw=true" alt="Logo"/>
+
+      <p><strong>Inscreva-se</strong></p>
+
+      <form>
+
+        <!-- Seleção de Evento -->
+        Evento
+        <select name="evento" required>
+          <option value="" disabled selected>-- Selecione --</option>
+          <option value="voe_sem_asas">Voe sem asas</option>
+          <option value="festa_junina">Festa junina</option>
+          <option value="semana_tecnologia">Semana de tecnologia</option>
+        </select>
+
+        <br/><br/>
+
+        <!-- Informações de Acesso -->
+        <fieldset>
+          <legend>Informações de Acesso</legend>
+
+          Usuário <input type="text" name="usuario" placeholder="username" required title="Please fill in this field"/><br/><br/>
+          Senha <input type="password" name="senha" placeholder="&bull;&bull;&bull;&bull;&bull;" required title="Please fill in this field"/><br/><br/>
+          Confirme a Senha <input type="password" name="confirme_senha" placeholder="&bull;&bull;&bull;&bull;&bull;" required title="Please fill in this field"/>
+
+        </fieldset>
+
+        <br/>
+
+        <!-- Informações Pessoais -->
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+
+          Nome Completo <input type="text" name="nome_completo" required title="Please fill in this field"/><br/><br/>
+          E-mail <input type="email" name="email" required title="Please fill in this field"/><br/><br/>
+          Celular <input type="tel" name="celular" placeholder="(99) 99999-9999" required title="Please fill in this field"/>
+
+          <br/><br/>
+
+          <!-- Sexo -->
+          <fieldset>
+            <legend>Sexo</legend>
+            Masculino <input type="radio" name="sexo" value="masculino"/>
+            &nbsp;
+            Feminino <input type="radio" name="sexo" value="feminino"/>
+          </fieldset>
+
+          <br/>
+
+          Data de Nascimento <input type="date" name="data_nascimento" required title="Please fill in this field"/><br/><br/>
+          Cor Favorita <input type="color" name="cor_favorita" value="#000000"/><br/><br/>
+          Perfil no Github <input type="text" name="github"/>
+
+        </fieldset>
+
+        <br/>
+
+        <input type="submit" value="Inscrever"/>
+        &nbsp;
+        <input type="reset" value="Limpar"/>
+
+      </form>
+
+      <br/>
+
+      <p>
+        <a href="index.html">
+          <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/MoveTop.png?raw=true" alt="MoveTop" height="50px"/>
+        </a>
+        | 
+        <a href="https://www.facebook.com/ifsppirituba">
+          <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/facebook.png?raw=true" alt="Logo Facebook" height="50px"/>
+        </a>
+      </p>
+      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+
+  </body>
+</html>
